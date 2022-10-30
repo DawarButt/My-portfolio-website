@@ -1,10 +1,10 @@
 import React from 'react';
 import virk from "../assets/portfolio/virk.png";
 import chat from "../assets/portfolio/chat.png";
-import linkedin from "../assets/portfolio/linkedin.jpg";
 import react from "../assets/portfolio/react.jpeg";
 import estore from "../assets/portfolio/estore.jpg";
 import resturant from "../assets/portfolio/resturant.jpg";
+import bank from "../assets/portfolio/bank.PNG";
 
 const Portfolio = () => {
     const portfolios = [
@@ -20,8 +20,8 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: linkedin,
-            href: "https://github.com/DawarButt/Linkedin-App"
+            src: bank,
+            href: "https://github.com/DawarButt/React_Bank_App"
         },
         {
             id: 4,
